@@ -83,4 +83,4 @@ lint:
   ignore:
     - library
 ```
-Rebuilding the snap should result in a build process without warnings and a snap in the project directory.
+Rebuilding the snap should result in a build process without warnings and a snap in the project directory called `autotools-cross-compile-example_1.0_armhf.snap` or similar. The `_armhf` component of the file name indicates that the snap has been built for that architecture.
